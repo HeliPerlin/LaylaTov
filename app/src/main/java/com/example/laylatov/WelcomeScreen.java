@@ -33,7 +33,7 @@ public class WelcomeScreen extends AppCompatActivity {
     }
 
     public void moveToInfoScreen(){
-        Intent intent = new Intent(this, VideoScreen.class);
+        Intent intent = new Intent(this, chooseInfoType.class);
         startActivity(intent);
     }
 

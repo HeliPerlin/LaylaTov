@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LaylaTov">
+        <activity
+            android:name=".chooseInfoType"
+            android:label="@string/title_activity_choose_info_type"
+            android:theme="@style/Theme.LaylaTov.NoActionBar"></activity>
         <activity android:name=".WelcomeScreen" />
         <activity android:name=".UsefulInfoClient" />
         <activity android:name=".VideoScreen" />
