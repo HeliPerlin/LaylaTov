@@ -21,16 +21,14 @@ public class WelcomeScreen extends AppCompatActivity {
         findBarsBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                moveToInfoScreen();
+                moveToFindBarsScreen();
             }
         });
 
         goToInfoBtn.setOnClickListener(new View.OnClickListener(){
 
             @Override
-            public void onClick(View v) {
-                moveToFindBarsScreen();
-            }
+            public void onClick(View v) { moveToInfoScreen(); }
         });
     }
 
