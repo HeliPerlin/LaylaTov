@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.laylatov">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +17,7 @@
         <activity
             android:name=".findPlaces"
             android:label="@string/title_activity_find_places"
-            android:theme="@style/Theme.LaylaTov.NoActionBar"></activity>
+            android:theme="@style/Theme.LaylaTov.NoActionBar" />
         <activity
             android:name=".chooseInfoType"
             android:label="@string/title_activity_choose_info_type"

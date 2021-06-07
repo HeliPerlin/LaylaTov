@@ -10,4 +10,20 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_find_places">findPlaces</string>
+    <string name="search">Search</string>
+    <string name="range">בחר טווח חיפוש</string>
+    <string name="range_view">בחר טווח במטרים</string>
+    <string name="חפש">חפש</string>
+
+    <string-array name="distances">
+        <item>בחר</item>
+        <item>100</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+    </string-array>
+
 </resources>

@@ -2,21 +2,21 @@ package com.example.laylatov;
 
 public class Bar {
     private final String name;
-    private float lat;
-    private float lng;
+    private double lat;
+    private double lng;
 
 
-    public Bar(String name, float lat, float lng){
+    public Bar(String name, double lat, double lng){
         this.name = name;
         this.lat = lat;
         this.lng = lng;
     }
 
-    public float getLat() {
+    public double getLat() {
         return lat;
     }
 
-    public float getLng() {
+    public double getLng() {
         return lng;
     }
 
