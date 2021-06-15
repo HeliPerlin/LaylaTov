@@ -61,14 +61,14 @@ public class findPlaces extends AppCompatActivity implements AdapterView.OnItemS
 
         Button search_button = (Button) findViewById(R.id.search_btn);
         ArrayList<Bar> allBars = new ArrayList<>();
-
-        Bar newBar1 = new Bar("Monaco", 31.7534989,35.3061771);
-        Bar newBar2 = new Bar("Toy", 31.7534989,35.3061771);
-        Bar newBar3 = new Bar("Lago", 31.7534989,35.3061771);
-
-        allBars.add(newBar1);
-        allBars.add(newBar2);
-        allBars.add(newBar3);
+//
+//        Bar newBar1 = new Bar("Monaco", 31.7534989,35.3061771);
+//        Bar newBar2 = new Bar("Toy", 31.7534989,35.3061771);
+//        Bar newBar3 = new Bar("Lago", 31.7534989,35.3061771);
+//
+//        allBars.add(newBar1);
+//        allBars.add(newBar2);
+//        allBars.add(newBar3);
 
 
         search_button.setOnClickListener(new View.OnClickListener() {

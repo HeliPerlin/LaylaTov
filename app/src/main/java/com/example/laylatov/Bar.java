@@ -1,15 +1,20 @@
 package com.example.laylatov;
 
+import android.widget.TextView;
+
 public class Bar {
     private final String name;
-    private double lat;
-    private double lng;
+    private final double lat;
+    private final double lng;
+    private String siteURL;
 
 
-    public Bar(String name, double lat, double lng){
+
+    public Bar(String name, double lat, double lng, String siteURL){
         this.name = name;
         this.lat = lat;
         this.lng = lng;
+        this.siteURL = siteURL;
     }
 
     public double getLat() {
@@ -23,4 +28,6 @@ public class Bar {
     public String getName() {
         return name;
     }
+
+    public String getSiteURL() { return siteURL; }
 }

@@ -32,6 +32,15 @@ public class MainActivity extends AppCompatActivity {
                 moveToInfoScreen();
             }
         });
+
+        Button moveToAddBar = (Button) findViewById(R.id.button2);
+
+        moveToAddBar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                moveToAddBarScreen();
+            }
+        });
     }
 
 
@@ -40,10 +49,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
 
-
-
-
-
-
-
+        public void moveToAddBarScreen(){
+            Intent intent = new Intent(this, AddBarActivity.class);
+            startActivity(intent);
+        }
 }
